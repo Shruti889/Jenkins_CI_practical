@@ -15,7 +15,7 @@ pipeline {
 
         stage('Build') {
             steps {
-                echo 'Build completed successfully'
+                echo 'Build completed after GitHub change'
             }
         }
 
